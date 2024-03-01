@@ -32,4 +32,12 @@ class Game extends Base
         return ajaxReturn($result);
 
     }
+	
+	public function test()
+    {
+
+        $result = GameService::taskConfig();
+        return ajaxReturn($result);
+
+    }
 }
